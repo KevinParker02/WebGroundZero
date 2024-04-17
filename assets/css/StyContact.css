@@ -115,3 +115,32 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+
+/*  -------------------- Barra inferior -------------------- */
+.r5{
+    background-color: var(--color5);
+    display: flex;
+    text-align: center;
+    box-shadow: 0 -5px 5px -4px rgba(0, 0, 0, 0.5);
+    color: var(--color6);
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ico1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+    font-size: 140%;
+    color: var(--color6);
+}
+
+.Links2{
+    font-size: 120%;
+    text-decoration: none;
+    color: var(--color6);
+}
+
+.home3{
+    font-size: 100%;
+    padding-left: 3%;
+}

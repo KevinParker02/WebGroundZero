@@ -338,6 +338,14 @@ body{
     .Raz{
         font-size: 9px;
     }
+
+    .carousel-caption {
+        text-align: center; /* Centra el contenido */
+      }
+      .carousel-caption h5 {
+        font-size: 18px; /* Tamaño de fuente más pequeño */
+        margin-bottom: 10px; /* Margen inferior */
+    }
 }
 
 
