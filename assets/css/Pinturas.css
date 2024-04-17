@@ -1,0 +1,207 @@
+:root {
+    --color0: #6C0345;
+    --color4: #DC6B19;
+    --color3: #F7C566;
+    --color1: #FFF8DC;
+    --color5: #F7F7F7;
+    --color6: #0F0F0F;
+}
+
+body {
+    /* Color del fondo de la página */
+    background-color: var(--color5);
+    background-attachment: fixed;
+    font-style: italic;
+}
+
+.home2 {
+    /* Corresponde al icono de casa */
+    color: black;
+    text-decoration: none;
+    /* Aumentar el tamaño del icóno */
+    font-size: 25px;
+}
+
+/* POP-UP */
+.link {
+    text-decoration: none;
+    color: var(--color6);
+}
+
+/* -------------------- NavBar/Menu -------------------- */
+.barra1 {
+    /* Corresponde al diseño general de barra1 */
+    background-color: var(--color5);
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.logo {
+    height: 50px;
+    /* Ajusta la altura según tus necesidades */
+    width: auto;
+    /* El ancho se ajustará automáticamente manteniendo la proporción de aspecto */
+    border-radius: 40px;
+    box-shadow: -5px -5px 3px rgba(0, 0, 0, 0.2);
+}
+
+#btn-abrir-modal {
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 35px;
+    background-color: var(--color5);
+}
+
+.NomEmp {
+    /*  Nombre empresa (Palabra) */
+    color: var(--color6);
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+/* Iconos navbar coloración y transicion */
+.ico-anim {
+    color: var(--color6);
+    transition: 0.3s;
+}
+
+.ico-anim:hover {
+    color: var(--color0);
+}
+
+
+.barraDerecha {
+    /* Corrí el buscador y el login a la derecha */
+    justify-content: center;
+}
+
+
+.contenedorcosa {
+    position: relative;
+    /* Asegura que el posicionamiento de los hijos sea relativo a este contenedor */
+    overflow: hidden;
+    /* Para asegurar que la imagen no se desborde del contenedor */
+}
+
+.imagencosa{
+    width: 100%;
+    /* Ocupa el 100% del ancho del contenedor */
+    height: 100%;
+    /* Ocupa el 100% de la altura del contenedor */
+    object-fit: cover;
+    /* Para asegurar que la imagen se ajuste y cubra completamente el contenedor */
+}
+
+/*  -------------------- Información -------------------- */
+.r2 {
+    box-shadow: 0 -5px 5px -4px rgba(0, 0, 0, 0.5);
+}
+
+.r2_2 {
+    background-color: #063940;
+}
+
+.Links4 {
+    text-decoration: none;
+    color: white;
+}
+
+.Titulo4 {
+    /* Sección de información */
+    display: flex;
+    justify-content: center;
+    color: var(--color5);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.Inf {
+    color: var(--color5);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/*  -------------------- Barra inferior -------------------- */
+.r5 {
+    background-color: var(--color5);
+    display: flex;
+    text-align: center;
+    box-shadow: 0 -5px 5px -4px rgba(0, 0, 0, 0.5);
+    color: var(--color6);
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ico1 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+    font-size: 140%;
+    color: var(--color6);
+}
+
+.Links2 {
+    font-size: 120%;
+    text-decoration: none;
+    color: var(--color6);
+}
+
+.home3 {
+    font-size: 100%;
+    padding-left: 3%;
+}
+
+/*  -------------------- Responsive -------------------- */
+
+@media (max-width: 2560px) {
+
+    /* --------------  Info al lado de la Información */
+    .Titulo4 {
+        padding-top: 180px;
+        font-size: 65px;
+    }
+
+    .Inf {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .Titulo4 {
+        padding-top: 20px;
+        font-size: 35px;
+    }
+
+    .Inf {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Titulo4 {
+        padding-top: 1px;
+        font-size: 27px;
+    }
+
+    .Inf {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Titulo4 {
+        font-size: 20px;
+    }
+
+    .Inf {
+        font-size: 9px;
+    }
+}
